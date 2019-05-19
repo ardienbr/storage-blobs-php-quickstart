@@ -30,7 +30,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 <body>
 <h1>Upload Foto Lomba</h1>
  <p>Silahkan upload foto yang ingin anda lakukan penjurian</p>
- <form method="post" action="upload.php" enctype="multipart/form-data" >
+ <form method="post" action="index.php" enctype="multipart/form-data" >
        <input type="file" name="fileToUpload" accept=".jpeg,.jpg" required="" />
        <input type="submit" name="submit" value="Upload" />
  </form>
