@@ -64,3 +64,4 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 	</tbody>
  </table>
 </body>
+</html>
